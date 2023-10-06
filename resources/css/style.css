@@ -1,0 +1,384 @@
+/*---color----*/
+/*
+header background:#87509c;
+header btn:#eb7d4b;
+second background:#17c2a4;
+team section:#e7f1f8;
+icon color :#bdd1df;
+font color:#79d0ee;
+line border:#c8d9e5;
+portfolio:#ffdd99;
+About us:#d74680;
+about us font color:#f4b592;
+get in touch:#3c5499;
+send message btn color:#30bae7;
+footer section:#344b8e;
+twiter color:#30bae7;
+
+
+*/
+/*---BASIC CSS----*/
+*{
+	margin: 0px;
+	padding: 0px;	
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+ font-family: 'Titillium Web', sans-serif;
+}
+.btn{
+	width: 130px;
+	margin: 0px auto;
+	padding: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 5px;
+}
+.btn a{
+	color: white;
+}
+/*----header css-----*/
+header{
+	height: 500px;
+	background-image:linear-gradient(rgba(135,80,156,0.6),rgba(135,80,156,0.6)), url("image/student.jpg");
+	background-size: cover;
+}
+.sticky{
+	position: fixed;
+	background-color: rgba(135,80,156,0.9);
+	width: 100%;
+}
+.logo{
+	height: 80px;
+}
+.logo img{
+	padding-top:20px;
+}
+.menu{
+	height: 80px;	
+}
+.menu ul{
+	float: right;
+	margin-top: 20px;
+}
+.menu li{
+	float: left;
+	margin: 0px 5px;
+	padding:10px;
+
+}
+.menu li:hover{
+	background-color: #51305d;
+	border-radius: 5px;
+	transition: .5s;
+}
+.menu li a{
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.active{
+	background-color:#51305d;
+	border-radius: 5px;
+	padding: 5px;
+}
+.header-title{
+	margin-top: 150px;
+	min-height: 200px;
+	
+}
+.header-title h1{
+	text-align: center;
+	color:white;
+}
+.btn-bg{
+	background-color: #eb7d4b;
+}
+.btn-bg:hover{
+	background-color: #bc643c;
+	transition: .5s;
+} 
+/*---service section css---*//*(rgba(23,194,164,0.6),rgba(23,194,164,0.6,0.6)),*/
+.service-bg{
+	min-height:550px;
+	background-image:linear-gradient(rgba(23,194,164,0.8),rgba(23,194,164,0.8)) ,url("image/bg.jpg");
+	background-size: cover;
+}
+
+.service-title h1{
+	text-align: center;
+	padding-top: 40px;
+	text-transform: uppercase;
+	color: white;
+}
+.service-border{
+	display: block;
+	width: 80px;
+	height: 3px;
+	margin:0px auto;
+	background-color:#256a5e; 
+	opacity: 0.5;
+}
+.service-title p{
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+.service-content{
+	min-height:300px;
+	margin:20px 5px;
+	
+}
+.service-content img{
+	display: block;
+	margin: 0px auto;
+	padding-top: 20px;
+	height: 100px;
+}
+.service-content h2{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+.service-content p{
+	color: white;
+	text-align: justify;
+	padding: 10px;
+	font-size:15px;
+	
+}
+.service-content:hover{
+	background-color: rgba(12,126,106,0.5);
+}
+
+/*---team section---*/
+.team-bg{
+	min-height: 550px;
+	background-image:linear-gradient(rgba(231,241,248,0.3),rgba(231,241,248,0.3)) ,url("image/team-bg.jpg");
+	background-size: cover;
+}
+.team-title h1{
+	text-align: center;
+	padding-top: 40px;
+	text-transform: uppercase;
+	color: #47526b;
+}
+.team-border{
+	display: block;
+	width: 80px;
+	height: 3px;
+	margin:0px auto;
+	background-color:#5a809a; 
+	opacity: 0.5;
+}
+.team-title p{
+	text-align: center;
+	color: #535e75;
+	padding-top: 10px;
+}
+
+/*---team content----*/
+
+.team-content{
+	min-height:320px;
+	margin:20px 5px 0px 5px;
+}
+.team-img{
+	height:100px;
+	width:100px;
+	background-color: red;
+	border-radius:50px;
+	margin: 0px auto;	
+}
+.img-1{
+	background-image: url("image/team1.jpg");
+	background-size: 100% 100%;
+	display: block;
+}
+.img-2{
+	background-image: url("image/team2.jpg");
+	background-size: 100% 100%;
+	display: block;
+}
+.img-3{
+	background-image: url("image/team3.jpg");
+	background-size: 100% 100%;
+	display: block;
+}
+.img-4{
+	background-image: url("image/team4.jpg");
+	background-size: 100% 100%;
+	display: block;
+}
+
+.team-content li{
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin: 5px;
+	background-color: #d7e3eb;
+	border-radius: 20px;
+}
+.team-content li:hover{
+	background-color: white;
+}
+.team-content li:hover i{
+	color: red;
+}
+.team-content i{
+	padding: 12px;
+}
+.team-content h2{
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 10px;
+	color: #47526b;
+}
+.team-content h5{
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 10px;
+	color: #79d0ee;
+}
+.team-content p{
+	color:#4c535e;
+	text-align: justify;
+	padding: 10px;
+	font-size:15px;
+}
+/*.team-content:hover{
+	background-color: rgba(12,126,106,0.5);
+}*/
+/*----PORTFOLIO SECTION----*/
+.portfolio-bg{
+	min-height: 550px;
+	background-image:linear-gradient(rgba(255,221,153,0.6),rgba(255,221,153,0.6)) ,url("image/portfolio-bg.jpg");
+	background-size: 100% 100%;
+	padding-bottom: 100px;
+	margin-bottom: 0px;
+	
+}
+.portfolio-title h1{
+	text-align: center;
+	padding-top: 40px;
+	text-transform: uppercase;
+	color: black;
+	padding-top: 40px;
+}
+.portfolio-border{
+	display: block;
+	width: 80px;
+	height: 3px;
+	margin:0px auto;
+	background-color:black; 
+	opacity: 0.5;
+}
+.portfolio-title p{
+	text-align: center;
+	color:black;
+	padding-top: 10px;
+}
+.portfolio-title ul{
+	margin-top: 20px;
+	text-align: center;
+}
+.portfolio-title li{
+	display: inline-block;
+}
+.portfolio-title a{
+	color: black;
+	background-color: rgba(153,132,91,0.7);
+	padding: 8px;
+	border-radius: 5px;
+	margin: 5px;
+	text-transform: uppercase;
+}
+.portfolio-title a:hover{
+	background-color: white;
+	transition: .4s;
+}
+.portfolio-content{
+	min-height:200px;
+	margin:20px 5px;	
+}
+.portfolio-content img{
+	display: block;
+	margin: 0px auto;	
+}
+.portfolio-content h3{
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 10px;
+	color: black;
+}
+.btn1{
+	clear: both;
+	width: 200px;
+	margin: 0px auto;
+	padding: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 5px;
+
+}
+.btn1 a{
+	color: white;
+}
+
+.btn-bg1{
+	background-color: #17c2a4;
+}
+.btn-bg1:hover{
+	background-color: #0d7462;
+	transition: .5s;
+} 
+/*----ABOUT US----*/
+.about-bg{
+	height:600px;
+	background-image:linear-gradient(rgba(215,70,128,0.6),rgba(215,70,128,0.6)) ,url("image/portfolio-bg.jpg");
+	background-size: 100% 100%;
+	padding-bottom: 60px;
+	margin-bottom: 30px;
+	
+}
+.about-title h1{
+	text-align: center;
+	padding-top: 40px;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 40px;
+}
+.about-border{
+	display: block;
+	width: 80px;
+	height: 3px;
+	margin:0px auto;
+	background-color:black; 
+	opacity: 0.5;
+}
+.about-title p{
+	text-align: center;
+	color:white;
+	padding-top: 10px;
+}
+.client_review{
+	margin-top: 40px;
+}
+.about-img{
+	float: left;
+	width: 50%;
+	margin: 0px;
+}
+.about-img img{
+	height:100px;
+	width:100px;
+	border-radius: 50px;
+	padding:0 px;
+
+}
+
